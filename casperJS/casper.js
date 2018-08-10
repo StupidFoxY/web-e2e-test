@@ -9,9 +9,10 @@ function getLinks() {
   });
 }
 
-casper.start('http://casperjs.org/');
+casper.start('http://casperjs.org/').viewport(400,300);
 
 casper.then(function() {
+  casper.capture('screenshots/casperjs2.png');
   this.echo('Page title: ' + this.getTitle());
   links = this.evaluate(getLinks);
 });
