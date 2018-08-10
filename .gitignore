@@ -1,2 +1,5 @@
 nmos_sc.gds
 nodeTest.odp
+
+# webdriver
+nightwatch/bin/*
