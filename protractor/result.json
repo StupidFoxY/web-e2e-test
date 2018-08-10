@@ -1,0 +1,11 @@
+[
+  {
+    "description": "vtcad test demo login",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 3718
+  }
+]

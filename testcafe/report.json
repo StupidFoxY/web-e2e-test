@@ -1,0 +1,28 @@
+{
+  "startTime": "2018-08-02T09:45:13.348Z",
+  "endTime": "2018-08-02T09:45:31.524Z",
+  "userAgents": [
+    "Firefox 61.0.0 / Ubuntu 0.0.0"
+  ],
+  "passed": 0,
+  "total": 1,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Testcafe Demo",
+      "path": "/home/liyanyu/Documents/demo-test/nodeTest/testcafe/vtcad.ts",
+      "tests": [
+        {
+          "name": "My first test",
+          "errs": [
+            "AssertionError: expected 'Create a new project' to deeply equal 'Create'\n\nBrowser: Firefox 61.0.0 / Ubuntu 0.0.0\n\n    9 |  await t.typeText('#username','liyanyu');\n   10 |  await t.typeText('#password','liyanyu');\n   11 |  await t.click('.cgd-red-login-button button');\n   12 |  await t.takeScreenshot('/login.png');\n   13 |\n > 14 |  await t.expect(Selector('.createBtn button .cgd-button-text').innerText).eql('Create');\n   15 |\n   16 |  await t.click('.createBtn button')\n   17 |    .click('.cgd-dialog-footer button[label=Next]')\n   18 |    .click('.cgd-dialog-footer button[label=Finish]');\n   19 |\n\n   at Object.<anonymous> (/home/liyanyu/Documents/demo-test/nodeTest/testcafe/vtcad.ts:14:76)\n   at fulfilled (/home/liyanyu/Documents/demo-test/nodeTest/testcafe/vtcad.ts:4:58)"
+          ],
+          "durationMs": 18153,
+          "screenshotPath": "/home/liyanyu/Documents/demo-test/nodeTest/testcafe/screenshot",
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

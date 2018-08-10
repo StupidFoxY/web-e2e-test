@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="2">
+
+  <testsuite name="pagetest"
+    errors="2" failures="0" hostname="" id="" package="pagetest" skipped="0"
+    tests="2" time="0.2190" timestamp="Mon, 30 Jul 2018 07:45:01 GMT">
+  
+    <testcase name="step one" classname="pagetest" time="0.1160" assertions="0">
+    </testcase>
+  
+    <testcase name="step two" classname="pagetest" time="0.1030" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Pagetest / step one]:
+
+  TypeError: Cannot read property &#39;baidu&#39; of undefined
+    at Object.step one (/home/liyanyu/Documents/demo-test/nightwatch/tests/pagetest.js:12:30)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/util/utils.js:35:8)
+    at Module.callAsync (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:75:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:77:43
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+  Error while running [Pagetest / step two]:
+
+  TypeError: Cannot read property &#39;element&#39; of undefined
+    at Object.step two (/home/liyanyu/Documents/demo-test/nightwatch/tests/pagetest.js:21:20)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/util/utils.js:35:8)
+    at Module.callAsync (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:75:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:77:43
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Firefox 61.0.0 / Ubuntu 0.0.0" tests="1" failures="0" skipped="0" errors="0" time="15.616" timestamp="Thu, 02 Aug 2018 09:39:25 GMT" >
+  <testcase classname="Testcafe Demo" name="My first test (screenshots: /home/liyanyu/Documents/demo-test/nodeTest/testcafe/screenshot)" time="15.592">
+  </testcase>
+</testsuite>
